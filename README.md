@@ -1,3 +1,33 @@
+Install react with "npx create-react-app inotebook"
+Install "npm i react-router-dom"
+Install "npm i concurrently" to run both frontend and backend concurrently on single terminal.
+Include bootstrap into index.html if u want to use it
+Make component folder into src and create components
+
+Include react router dom into App.js{
+     import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+        <Router>
+        <Navbar></Navbar>
+        <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+        </Routes>
+      </Router>
+}
+
+Include Link of react router dom into components wherever needed and Change => <a> with <Link> and <href> with <to>
+Close the the tags which are not closed by /
+Change the class  to className beacuse class is reserved keyword in javascript jsx.
+
+Create Context folder into  src folder
+
+You can icons at fontawesome website.
+
+For adding REDUX Install --->   npm i redux react-redux redux-thunk
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
